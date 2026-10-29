@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Shared · Privacy policy</title><link rel="stylesheet" href="app.css"><style>.legal{max-width:760px;margin:0 auto;padding:24px 18px 60px;background:var(--panel);min-height:100vh}.legal h1{font-size:28px;margin:0 0 4px}.legal h2{font-size:18px;margin:26px 0 8px}.legal p,.legal li{line-height:1.6;color:var(--text)}.legal table{width:100%;border-collapse:collapse;font-size:14px}.legal td,.legal th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}</style></head>
+<body><main class="legal">
+<h1>Privacy policy</h1>
+<p class="form-hint">Shared (app id com.shared.expenses) · Effective 29 October 2026</p>
+<p>Shared is an expense-splitting app. It has no ads, no analytics and no tracking. This policy explains what data the app handles and why.</p>
+
+<h2>Data that stays on your device</h2>
+<p>By default everything you enter — your name, friends’ names, groups, expenses, payments, comments, notes, reminders and receipt photos — is stored only on your device. It is not sent anywhere unless you sign in and choose to share a group.</p>
+<p>If you have turned on Android device backup, Android may include this app’s data in your encrypted Google backup so it can be restored on a new phone. You control this in your phone’s settings.</p>
+
+<h2>Data sent when you use cloud sync</h2>
+<p>Cloud sync is optional. If you create an account and share a group:</p>
+<table>
+<tr><th>Data</th><th>Why</th><th>Who can see it</th></tr>
+<tr><td>Email address and password (stored as a secure hash)</td><td>To create and sign in to your account</td><td>Only you; our database provider processes it</td></tr>
+<tr><td>Contents of groups you choose to share: member names and any email, Venmo or PayPal usernames you entered for them, expenses, payments, comments, notes, recurring schedules, whiteboard and group settings</td><td>To keep the group in sync for its members</td><td>Members of that group who accepted an invitation</td></tr>
+<tr><td>Receipt files you explicitly choose to share</td><td>To show the receipt to the group</td><td>Members of that group, through short-lived private links</td></tr>
+</table>
+<p>Groups you do not share, blocked-user lists, reports, notification settings and app-lock settings never leave your device.</p>
+<p>Cloud data is stored by Supabase (database and file storage, hosted in Canada, ca-central-1) and is encrypted in transit (HTTPS). Access is limited to group members by database security rules.</p>
+
+<h2>Exchange rates</h2>
+<p>When you ask for a currency rate, the app requests it from the Frankfurter public API (api.frankfurter.dev). Only the two currency codes are sent.</p>
+
+<h2>Device permissions</h2>
+<ul><li><strong>Internet</strong> — only for cloud sync and exchange rates.</li><li><strong>Notifications</strong> — only if you turn on reminders.</li><li><strong>Camera / photos</strong> — only when you pick a receipt. Receipt text is read on your device; images are not uploaded unless you share them.</li><li><strong>Biometrics / device passcode</strong> — only if you turn on app lock; handled by your phone’s operating system.</li></ul>
+
+<h2>Payments</h2>
+<p>Shared never moves money. “Pay with Venmo / PayPal” simply opens those apps; Shared receives nothing back from them.</p>
+
+<h2>Sharing and selling</h2>
+<p>We do not sell personal data, show ads or share data with advertisers or data brokers.</p>
+
+<h2>Retention and deletion</h2>
+<ul><li>Local data: delete it any time from <em>Your account → Erase all data on this device</em>, or by uninstalling the app.</li><li>Cloud account: delete it in the app from <em>Your account → Sync across devices → Account, sync and sign out → Delete cloud account</em>. This permanently removes your account, the groups you own and their receipt files, and your memberships in other groups. See <a href="delete-account.html">how to delete your account</a>.</li><li>Expenses you added to a group owned by someone else remain part of that group’s history for its other members.</li></ul>
+
+<h2>Children</h2>
+<p>Shared is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>Contact</h2>
+<p>Questions or requests: <a href="mailto:shared@owaism.xyz">shared@owaism.xyz</a></p>
+<p class="form-hint">Shared is independent and not affiliated with Splitwise, Inc.</p>
+</main></body></html>
